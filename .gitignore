@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+
+# Django
+backend/db.sqlite3
+backend/db.sqlite3-*
+backend/static/
+backend/media/
+backend/*.log
+backend/1.log
+
+# Secrets
+.env
+*.env
+!.env.example
+backend/.env
+frontend/.env
+*.pem
+*.key
+
+# Backups / temporary files
+*.before-*
+*.bak
+*.backup
+*.old
+*.orig
+*~
+
+# Node / Vue
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
